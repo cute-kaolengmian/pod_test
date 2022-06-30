@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		0F9EEAA40DB543D56C7BFAEC /* Pods-pod_test_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pod_test_Tests.debug.xcconfig"; path = "Target Support Files/Pods-pod_test_Tests/Pods-pod_test_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		24ECCBC3B7AFC0FA08F6F135 /* Pods_pod_test_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pod_test_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2613926CDBB722EDE9047D04 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2613926CDBB722EDE9047D04 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5128DBEAA762222B78EC2CD7 /* Pods-pod_test_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pod_test_Tests.release.xcconfig"; path = "Target Support Files/Pods-pod_test_Tests/Pods-pod_test_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* pod_test_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pod_test_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,8 +42,8 @@
 		607FACE51AFB9204008FA782 /* pod_test_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pod_test_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		83B9CCB6F9700B4BA74BEE41 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		850038D1455367C24DFD5BEB /* pod_test.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = pod_test.podspec; path = ../pod_test.podspec; sourceTree = "<group>"; };
+		83B9CCB6F9700B4BA74BEE41 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		850038D1455367C24DFD5BEB /* pod_test.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = pod_test.podspec; path = ../pod_test.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CC9AE08DD8DBFA367770A66E /* Pods-pod_test_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pod_test_Example.debug.xcconfig"; path = "Target Support Files/Pods-pod_test_Example/Pods-pod_test_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E04201C5151D3ED19A978A01 /* Pods-pod_test_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pod_test_Example.release.xcconfig"; path = "Target Support Files/Pods-pod_test_Example/Pods-pod_test_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E2E1CFDC6E93B3F4E583ED32 /* Pods_pod_test_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pod_test_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,7 +86,6 @@
 				0F9EEAA40DB543D56C7BFAEC /* Pods-pod_test_Tests.debug.xcconfig */,
 				5128DBEAA762222B78EC2CD7 /* Pods-pod_test_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
